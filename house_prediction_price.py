@@ -1,12 +1,11 @@
 import pickle
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.linear_model import LinearRegression
 from catboost import CatBoostRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_percentage_error
 
-dataset = pd.read_excel("data2.xlsx")
+dataset = pd.read_excel("Полный перечень данных.xlsx")
 
 # Printing first 5 records of the dataset
 print(dataset.head(5))
