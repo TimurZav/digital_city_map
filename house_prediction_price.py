@@ -6,7 +6,7 @@ from catboost import CatBoostRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_percentage_error
 
-dataset = pd.read_excel("Будущие данные.xlsx")
+dataset = pd.read_excel("data2.xlsx")
 
 # Printing first 5 records of the dataset
 print(dataset.head(5))
